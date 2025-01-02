@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component name="FirstScreen" extends="Scene">
+
+    <script type="text/brightscript" uri="FirstScreen.brs"></script>
+
+
+    <interface>
+        <!-- <field id="close" type="boolean" /> -->
+    </interface>
+    <children>
+
+        <!-- <Rectangle width="1920" height="1080" color="#1B1927" /> -->
+
+
+        <Poster id="main_background" width="1920" height="1080"
+            uri="pkg:/images/Poster/background.png" />
+
+        <Button id="BtnBack" translation="[100,70]" minWidth="85" maxWidth="85"
+            height="85" iconUri="" focusedIconUri="" focusBitmapUri="pkg:/images/Button/BackF.png"
+            focusFootprintBitmapUri="pkg:/images/Button/BackUF.png" showFocusFootprint="true" />
+
+        <Button id="Btnsetting" iconUri="" focusedIconUri=""
+            focusBitmapUri="pkg:/images/Button/SettingsF.png"
+            focusFootprintBitmapUri="pkg:/images/Button/SettingsUF.png" showFocusFootprint="true"
+            translation="[1775,70]" minWidth="85" maxWidth="85" height="85" />
+
+        <Button id="BtnRetry" translation="[883,930]" minWidth="85" maxWidth="85" height="85"
+            iconUri="" focusedIconUri="" focusBitmapUri="pkg:/images/Button/retryF.png"
+            focusFootprintBitmapUri="pkg:/images/Button/retryUF.png" showFocusFootprint="true" />
+
+
+        <Group id="ExitGroup" visible="false">
+            <Poster id="Exitbackground" width="1920" height="1080"
+                uri="pkg:/images/Poster/ExitBackground.png" />
+
+            <Poster id="ExitPopup" width="643" height="560.36" translation="[638,260]"
+                uri="pkg:/images/Poster/exitPopup.png" />
+
+            <Button id="BtnAppExit" translation="[1038,611]" minWidth="85" maxWidth="85"
+                height="85" iconUri="" focusedIconUri=""
+                focusBitmapUri="pkg:/images/Button/tickF.png"
+                focusFootprintBitmapUri="pkg:/images/Button/tickUF.png" showFocusFootprint="true" />
+            <Button id="BtnAppExitCancel" translation="[799,611]" minWidth="85" maxWidth="85"
+                height="85" iconUri="" focusedIconUri=""
+                focusBitmapUri="pkg:/images/Button/crossSF.png"
+                focusFootprintBitmapUri="pkg:/images/Button/crossSUF.png" showFocusFootprint="true" />
+
+
+        </Group>
+
+    </children>
+</component>

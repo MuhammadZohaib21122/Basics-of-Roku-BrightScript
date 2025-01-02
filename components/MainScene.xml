@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="MainScene" extends="Scene">
+
+    <script type="text/brightscript" uri="MainScene.brs" />
+    <script type="text/brightscript" uri="UILogics/FirstScreenLogic.brs" />
+
+    <customization suspendhandler="customSuspend" />
+    <customization resumehandler="customResume" />
+
+    <interface>
+     <field id="launchArgs" type="assocarray" />
+        <field id="exitApp" type="boolean" alwaysNotify="true" />
+        <field id="appExit" type="bool" alwaysnotify="true" value="false"/>
+        
+
+    </interface>
+
+    <children>
+
+
+    </children>
+</component>

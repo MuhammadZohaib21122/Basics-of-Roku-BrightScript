@@ -1,0 +1,15 @@
+title=Weather Forcast
+major_version=1
+minor_version=0
+build_version=1
+mm_icon_focus_hd=pkg:/images/logos/app_icon_hd.png
+mm_icon_focus_sd=pkg:/images/logos/app_icon_sd.png
+mm_icon_focus_fhd=pkg:/images/logos/app_icon_fhd.png
+splash_screen_fhd=pkg:/images/logos/Splash_FHD.png
+splash_screen_hd=pkg:/images/logos/Splash_HD.png
+splash_screen_sd=pkg:/images/logos/Splash_SD.png
+ui_resolutions=fhd
+splash_rsg_optimization=1
+supports_input_launch=1
+sdk_instant_resume=1
+run_as_process=1

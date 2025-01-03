@@ -1,7 +1,7 @@
 sub Init()
 
     m.top.backgroundColor = "#1B1927"
-
+    startDeeplink()
 end sub
 
 function startDeeplink()
@@ -31,8 +31,8 @@ function customSuspend(arg as dynamic)
         m.top.exitApp = true
     end for
 end function
-sub CloseScreen(node as Object)
-    if node = invalid OR (m.screenStack.Peek() <> invalid AND m.screenStack.Peek().IsSameNode(node))
+sub CloseScreen(node as object)
+    if node = invalid or (m.screenStack.Peek() <> invalid and m.screenStack.Peek().IsSameNode(node))
         last = m.screenStack.Pop() ' remove screen from screenStack
         last.visible = false ' hide screen
         m.top.RemoveChild(last)

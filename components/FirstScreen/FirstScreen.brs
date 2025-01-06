@@ -51,8 +51,8 @@ sub CloseExitPopup()
 end sub
 
 sub CloseApp()
-    ' m.top.close = true
-    ' scene.appExit = true
+    m.top.close = true
+    scene.appExit = true
     
 end sub
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<component name="FirstScreen" extends="Group" initialFocus="exampleRowList">
+
+  <script type="text/brightscript" uri="FirstScreen.brs" />
+
+  <children>
+
+    <Poster width="1920" height="1080" uri="pkg:/images/background_overlay.png">
+    </Poster>
+
+    <Rectangle width="1520" height="10" color="#AAAAAA" translation="[190, 90]" />
+    <Rectangle width="10" height="850" color="#AAAAAA" translation="[190, 100]" />
+    <Rectangle width="1520" height="10" color="#AAAAAA" translation="[190, 950]" />
+    <Rectangle width="10" height="870" color="#AAAAAA" translation="[1710, 90]" />
+
+    <RowList
+      id="exampleRowList"
+      translation="[ 200, 100 ]"
+      itemComponentName="RowListItem"
+      numRows="1"
+      itemSize="[ 1508, 908 ]"
+      rowItemSize="[ [1536, 608] ]"
+      itemSpacing="[ 0, 100 ]"
+      drawFocusFeedback="false"
+      vertFocusAnimationStyle="fixedFocusWrap"
+      rowFocusAnimationStyle="fixedFocusWrap" />
+
+  </children>
+
+</component>
